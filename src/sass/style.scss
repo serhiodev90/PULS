@@ -13,4 +13,10 @@
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
-@import 'blocks/titles'
+@import 'blocks/titles';
+
+@media (max-width: 1200px) {
+	.container {
+		width: 90%;
+	}
+}
