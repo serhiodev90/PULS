@@ -1,0 +1,31 @@
+.feed-form {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	input {
+		height: 50px;
+		border-radius: 5px;
+		background-color: #ffffff;
+		margin-top: 15px;
+		border: none;
+		padding: 0 20px;
+		font-size: 14px;
+		font-weight: 300;
+		text-align: left;
+		color: #4b4b4b;
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.feed-form {
+		margin: 30px auto 0;
+	}
+}
+@media (max-width: 575px) {
+	.feed-form {
+		width: 100%;
+	}
+}

@@ -4,23 +4,50 @@
 	font-weight: 700;
 	text-align: center;
 	color: #0d0d0d;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	&_left {
+		width: 782px;
+		font-size: 36px;
+		line-height: normal;
+		text-align: left;
+		color: #ffffff;
+	}
 }
 
 @media (max-width: 1200px) {
 	.title {
 		font-size: 25px;
 		line-height: 25px;
+		&_left {
+			width: 60%;
+			line-height: normal;
+		}
 	}
 }
 @media (max-width: 991px) {
 	.title {
 		font-size: 22px;
 		line-height: 22px;
+		&_left {
+			width: 70%;
+			line-height: normal;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.title {
+		text-align: center;
+		margin: 0 auto;
 	}
 }
 @media (max-width: 575px) {
 	.title {
 		font-size: 18px;
 		line-height: 18px;
+		&_left {
+			width: 100%;
+			line-height: normal;
+		}
 	}
 }
