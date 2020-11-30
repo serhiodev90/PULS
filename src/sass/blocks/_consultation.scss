@@ -18,7 +18,8 @@
 		color: #ffffff;
 		border: none;
 		text-align: center;
-		margin: 15px 0;
+		margin: 10px 0 0;
+		font-size: 14px;
 	}
 }
 
@@ -42,6 +43,9 @@
 		&__descr {
 			width: 100%;
 			font-size: 15px;
+		}
+		label.error {
+			font-size: 12px;
 		}
 	}
 }
